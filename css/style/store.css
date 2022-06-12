@@ -1,0 +1,43 @@
+.equipaments {
+  padding: 0 30px;
+  display: grid;
+  gap: 60px;
+}
+
+.equipaments img {
+  height: 280px;
+  width: 510px;
+}
+
+.equipaments > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.list {
+  display: grid;
+  align-content: space-between;
+}
+
+.list li {
+  list-style: disc;
+  list-style-position: inside;
+}
+
+@media (max-width: 900px) {
+  .equipaments img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .equipaments > div {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .list {
+    gap: 15px;
+  }
+}

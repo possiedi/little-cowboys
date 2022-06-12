@@ -1,0 +1,10 @@
+.introduction {
+  background-image: url('../../img/img/home/wallpaper.jpg');
+  background-position: center;
+  background-size: cover;
+  padding: 60px 30px;
+}
+
+.introduction blockquote {
+  text-align: center;
+}

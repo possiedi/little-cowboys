@@ -1,0 +1,16 @@
+.social-media ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer p {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .social-media ul {
+    flex-flow: column;
+    gap: 60px;
+  }
+}

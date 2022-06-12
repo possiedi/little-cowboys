@@ -1,0 +1,33 @@
+.news {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.news div {
+  display: grid;
+  gap: 30px;
+}
+
+.news div img {
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+}
+
+.news div p {
+  margin-top: 10px;
+  max-width: 45ch;
+}
+
+@media (max-width: 800px) {
+  .news {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 400px) {
+  .news {
+    grid-template-columns: 1fr;
+  }
+}

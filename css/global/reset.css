@@ -1,0 +1,23 @@
+body,
+blockquote,
+h1,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

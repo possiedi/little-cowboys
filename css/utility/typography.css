@@ -1,0 +1,69 @@
+:root {
+  --graduate: 'Graduate', 'cursive';
+  --georgia: 'Georgia', 'Times New Roman', 'Times', 'serif';
+}
+
+/* Little graduate 1 */
+.l-gr-1 {
+  font-family: var(--graduate);
+  font-size: 1.125rem;
+  color: var(--neutral-color-1);
+  text-transform: uppercase;
+}
+
+/* Little graduate 2 */
+.l-gr-2 {
+  font-family: var(--graduate);
+  font-size: 1.125rem;
+  color: var(--neutral-color-2);
+  text-transform: uppercase;
+}
+
+/* Medium graduate 2 */
+.m-gr-2 {
+  font-family: var(--graduate);
+  font-size: 1.5rem;
+  color: var(--neutral-color-1);
+}
+
+/* Little georgia normal */
+.l-ge-n {
+  font-family: var(--georgia);
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--neutral-color-2);
+}
+
+/* Little georgia list */
+.l-ge-list {
+  font-family: var(--georgia);
+  font-size: 0.875rem;
+  line-height: 2;
+  color: var(--neutral-color-2);
+}
+
+/* Medium georgia */
+.m-ge {
+  font-family: var(--georgia);
+  font-size: 1.5rem;
+  color: var(--neutral-color-2);
+}
+
+/* Large georgia */
+.l-ge {
+  font-family: var(--georgia);
+  font-size: 2.25rem;
+  color: var(--neutral-color-1);
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  .l-gr-1,
+  .l-gr-2 {
+    font-size: 0.875rem;
+  }
+
+  .l-ge {
+    font-size: 1.5rem;
+  }
+}

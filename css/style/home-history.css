@@ -1,0 +1,14 @@
+.home-history img {
+  height: 330px;
+  width: 100%;
+}
+
+.history-item {
+  display: grid;
+  align-content: flex-start;
+  gap: 30px;
+}
+
+.history-item p {
+  max-width: 45ch;
+}

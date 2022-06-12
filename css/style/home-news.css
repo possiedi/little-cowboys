@@ -1,0 +1,21 @@
+.home-news-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.home-news-item img {
+  width: 330px;
+  height: 330px;
+}
+
+.home-news-item li {
+  list-style: disc;
+  list-style-position: inside;
+}
+
+@media (max-width: 600px) {
+  .home-news-item {
+    grid-template-columns: 1fr;
+  }
+}
